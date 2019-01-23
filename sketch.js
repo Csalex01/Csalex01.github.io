@@ -18,12 +18,6 @@ function setup() {
 
 }
 
-function addAll(arr1, arr2) {
-    for (let s of arr1) {
-        arr2.push(s);
-    }
-}
-
 function mousePressed() {
     let nextGeneration = [];
 
