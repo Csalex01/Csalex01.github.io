@@ -15,7 +15,6 @@ function setup() {
     segments.push(s1);
     segments.push(s2);
     segments.push(s3);
-
 }
 
 function mousePressed() {
@@ -51,7 +50,6 @@ function draw() {
 
     fill(0);
     text("Segment count: " + segments.length, width / 4, height - 50);
-
 
     beginShape();
     for (let s of segments) {
