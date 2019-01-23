@@ -1,9 +1,8 @@
 
 class Segment {
-    constructor(a, b, col) {
+    constructor(a, b) {
         this.a = a;
         this.b = b;
-        this.col = col;
     }
 
     generate() {
